@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/EZ-Sequence-Web/static/css/main.f855e6bc.css",
-    "main.js": "/EZ-Sequence-Web/static/js/main.26bb6559.js",
+    "main.css": "/EZ-Sequence-Web/static/css/main.4d026c6a.css",
+    "main.js": "/EZ-Sequence-Web/static/js/main.e53fad70.js",
     "static/js/453.00b839f0.chunk.js": "/EZ-Sequence-Web/static/js/453.00b839f0.chunk.js",
-    "static/media/logo.svg": "/EZ-Sequence-Web/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/EZ-Sequence-Web/index.html",
-    "main.f855e6bc.css.map": "/EZ-Sequence-Web/static/css/main.f855e6bc.css.map",
-    "main.26bb6559.js.map": "/EZ-Sequence-Web/static/js/main.26bb6559.js.map",
+    "main.4d026c6a.css.map": "/EZ-Sequence-Web/static/css/main.4d026c6a.css.map",
+    "main.e53fad70.js.map": "/EZ-Sequence-Web/static/js/main.e53fad70.js.map",
     "453.00b839f0.chunk.js.map": "/EZ-Sequence-Web/static/js/453.00b839f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.26bb6559.js"
+    "static/css/main.4d026c6a.css",
+    "static/js/main.e53fad70.js"
   ]
 }
