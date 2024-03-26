@@ -1,6 +1,8 @@
 # EZ-Sequence-Web
 > 전기 시퀀스 회로 작도 프로그램(EZ-Sequence) 소개 웹 페이지 (TBA)
 
+- [바로가기](https://kimdonghyeon7645.github.io/EZ-Sequence-Web/)
+
 <img width="1280" alt="image" src="https://github.com/Kimdonghyeon7645/EZ-Sequence-Web/assets/48408417/214abeb3-fdb9-4cfe-aedd-0468fe429902">
 
 - 간편 : 자기유지회로도 1분이면 작도 ok (직접 한땀한땀 기호 만들 필요 없음)
