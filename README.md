@@ -1,5 +1,7 @@
 # EZ-Sequence-Web
-> 전기 시퀀스 회로 작도 프로그램(EZ-Sequence) 소개 웹 페이지 (TBA)
+> 전기 시퀀스 회로 작도 프로그램(EZ-Sequence) 소개 페이지
+
+<img width="1680" alt="스크린샷 2024-03-27 오후 5 10 37" src="https://github.com/Kimdonghyeon7645/EZ-Sequence-Web/assets/48408417/61b2d7d1-7ead-47de-90b9-35f197fc954f">
 
 - [바로가기](https://kimdonghyeon7645.github.io/EZ-Sequence-Web/)
 
