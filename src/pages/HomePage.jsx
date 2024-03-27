@@ -1,4 +1,4 @@
-import { DownloadBtn, HeaderNavBar, HomePageBody, LogoImg, ScreenshotImg, Section1, TitleArea, TitleEle } from "./HomePage.style";
+import { DownloadBtn, HeaderNavBar, HomePageBody, LogoImg, ScreenshotImg, Section1, Section2, SectionTitle, TitleArea, TitleEle } from "./HomePage.style";
 import Logo from "../assets/logo.png";
 import ScreenShot from "../assets/screenshot.png";
 
@@ -7,6 +7,7 @@ const HomePage = () => {
     <HomePageBody>
       <HeaderNavBar>
         <LogoImg src={Logo} />
+        <div>용담</div>
       </HeaderNavBar>
 
       <Section1>
@@ -18,6 +19,10 @@ const HomePage = () => {
         </TitleArea>
         <ScreenshotImg src={ScreenShot} alt="screenshot" />
       </Section1>
+
+      <Section2>
+        <SectionTitle>EZ-Sequence 프로그램은,</SectionTitle>
+      </Section2>
     </HomePageBody>
   );
 };
