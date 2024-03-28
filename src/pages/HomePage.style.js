@@ -34,11 +34,11 @@ export const Section1 = styled.div`
 `;
 
 export const ScreenshotImg = styled.img`
-  width: 77%;
+  width: 78%;
   max-width: 1200px;
   margin-top: -80px;
   margin-left: 65px;
-  border-radius: 20px;
+  border-radius: 1.25%;
 `;
 
 export const TitleArea = styled.div`
@@ -103,7 +103,7 @@ export const Section2 = styled.div`
 `;
 
 export const SectionTitle = styled.div`
-  padding: 60px 0;
+  padding: 90px 0 70px 0;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: -1.5px;
@@ -146,4 +146,38 @@ export const FooterNavArea = styled.div`
   display: flex;
   align-items: center;
   gap: 5px;
+`;
+
+export const Section2CardView = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+export const SampleImg = styled.img`
+  border-radius: 8px;
+  border: 1.5px solid #11111110;
+  height: 220px;
+`;
+
+export const CardWrapper = styled.div`
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const CardTitle = styled.div`
+  margin: 30px 0 5px 0;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+`;
+
+export const CardBody = styled.div`
+  text-align: center;
+  font-size: 17.5px;
+  font-weight: 400;
+  letter-spacing: -0.8px;
+  line-height: 28px;
+  white-space: pre-line;
 `;
