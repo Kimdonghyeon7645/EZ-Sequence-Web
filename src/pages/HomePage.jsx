@@ -1,4 +1,22 @@
-import { DownloadBtn, HeaderNavBar, HomePageBody, LogoImg, ScreenshotImg, Section1, Section2, SectionTitle, TitleArea, TitleEle } from "./HomePage.style";
+import {
+  DownloadBtn,
+  Footer,
+  FooterNavArea,
+  FooterSubTitle,
+  FooterTitle,
+  FooterTitleArea,
+  HeaderNavBar,
+  HeaderNavBarRow,
+  HomePageBody,
+  LogoImg,
+  ScreenshotImg,
+  Section1,
+  Section2,
+  SectionTitle,
+  TitleArea,
+  TitleEle,
+  WhiteLogoImg,
+} from "./HomePage.style";
 import Logo from "../assets/logo.png";
 import ScreenShot from "../assets/screenshot.png";
 
@@ -6,8 +24,17 @@ const HomePage = () => {
   return (
     <HomePageBody>
       <HeaderNavBar>
-        <LogoImg src={Logo} />
-        <div>용담</div>
+        <HeaderNavBarRow>
+          <LogoImg src={Logo} />
+          <div>EZ-Sequence</div>
+        </HeaderNavBarRow>
+        <HeaderNavBarRow>
+          <div>제품</div>
+          <div>사용법</div>
+          <div>문의</div>
+          <div>다운로드</div>
+          <div>언어</div>
+        </HeaderNavBarRow>
       </HeaderNavBar>
 
       <Section1>
@@ -23,6 +50,17 @@ const HomePage = () => {
       <Section2>
         <SectionTitle>EZ-Sequence 프로그램은,</SectionTitle>
       </Section2>
+
+      <Footer>
+        <FooterTitleArea>
+          <WhiteLogoImg src={Logo} />
+          <div>
+            <FooterTitle>EZ-Sequence</FooterTitle>
+            <FooterSubTitle>Electron Zang-eo(eel) Sequence</FooterSubTitle>
+          </div>
+        </FooterTitleArea>
+        <FooterNavArea></FooterNavArea>
+      </Footer>
     </HomePageBody>
   );
 };

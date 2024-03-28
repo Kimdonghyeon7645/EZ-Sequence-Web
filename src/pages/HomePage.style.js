@@ -7,17 +7,24 @@ export const HomePageBody = styled.div`
 `;
 
 export const HeaderNavBar = styled.div`
-  height: 90px;
-  width: 100vw;
+  height: 75px;
+  padding: 0 30px;
 
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1px solid #11111110; */
+`;
+
+export const HeaderNavBarRow = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
 `;
 
 export const LogoImg = styled.img`
   height: 44px;
   width: 45px;
-  padding-top: 16px;
-  padding-left: 22px;
 `;
 
 export const Section1 = styled.div`
@@ -27,7 +34,8 @@ export const Section1 = styled.div`
 `;
 
 export const ScreenshotImg = styled.img`
-  width: 78%;
+  width: 77%;
+  max-width: 1200px;
   margin-top: -80px;
   margin-left: 65px;
   border-radius: 20px;
@@ -54,7 +62,7 @@ export const TitleEle = styled.div`
           font-weight: 500;
           font-size: 40px;
           color: #11111160;
-          letter-spacing: -3.3px;
+          letter-spacing: -3px;
           line-height: 46px;
         `
       : props.$seq === 3
@@ -62,7 +70,7 @@ export const TitleEle = styled.div`
           margin-top: 6px;
           padding-left: 4px;
           font-size: 30px;
-          font-weight: 500;
+          font-weight: 400;
           color: #11111140;
           letter-spacing: -2px;
           line-height: 38px;
@@ -73,13 +81,13 @@ export const TitleEle = styled.div`
 export const DownloadBtn = styled.div`
   display: inline-block;
   margin: 35px 0 0 6px;
-  padding: 16px 70px;
+  padding: 15px 65px;
   border-radius: 8px;
   border: none;
-  background-color: #333;
+  background-color: #222;
   color: white;
-  font-size: 21px;
-  letter-spacing: -1.2px;
+  font-size: 19px;
+  letter-spacing: -1.5px;
 
   user-select: none;
   cursor: pointer;
@@ -100,4 +108,42 @@ export const SectionTitle = styled.div`
   font-size: 36px;
   letter-spacing: -1.5px;
   color: #111;
+`;
+
+export const Footer = styled.div`
+  padding: 85px 120px;
+  height: 260px;
+  background-color: #131313;
+  color: white;
+`;
+
+export const FooterTitleArea = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 3px;
+`;
+
+export const FooterTitle = styled.div`
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+`;
+
+export const FooterSubTitle = styled.div`
+  margin-top: -1.5px;
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+`;
+
+export const WhiteLogoImg = styled.img`
+  filter: invert(100%);
+  height: 39px;
+  width: 39px;
+`;
+
+export const FooterNavArea = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 5px;
 `;
