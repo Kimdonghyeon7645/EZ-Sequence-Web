@@ -19,12 +19,26 @@ export const HeaderNavBar = styled.div`
 export const HeaderNavBarRow = styled.div`
   display: flex;
   align-items: center;
-  gap: 10px;
+`;
+
+export const NavItem = styled.div`
+  width: 80px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: -0.2px;
 `;
 
 export const LogoImg = styled.img`
   height: 44px;
-  width: 45px;
+  width: 46px;
+`;
+
+export const LogoTitle = styled.div`
+  margin-left: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
 `;
 
 export const Section1 = styled.div`
@@ -174,6 +188,7 @@ export const CardTitle = styled.div`
 `;
 
 export const CardBody = styled.div`
+  color: #111111bb;
   text-align: center;
   font-size: 17.5px;
   font-weight: 400;
