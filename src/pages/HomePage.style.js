@@ -22,10 +22,10 @@ export const HeaderNavBarRow = styled.div`
 `;
 
 export const NavItem = styled.div`
-  width: 80px;
+  width: 70px;
   text-align: center;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: -0.2px;
 `;
 
@@ -35,8 +35,8 @@ export const LogoImg = styled.img`
 `;
 
 export const LogoTitle = styled.div`
-  margin-left: 5px;
-  font-size: 24px;
+  margin-left: 6px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: -0.3px;
 `;
