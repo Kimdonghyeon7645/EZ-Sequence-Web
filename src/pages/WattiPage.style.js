@@ -50,20 +50,21 @@ export const TitleHeader = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 10px;
 
   color: #333;
   text-align: center;
   font-weight: 700;
-  font-size: 78px;
-  line-height: 92px;
-  letter-spacing: 0.5px;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 0px;
 `;
 
 export const SubTitle = styled.div`
   color: #4ab1bd;
-  font-weight: 300;
-  font-size: 36px;
+  font-weight: 400;
+  font-size: 34px;
+  letter-spacing: 0px;
+  margin-bottom: -4px;
 `;
 
 export const PrimaryColor = styled.span`
@@ -90,7 +91,7 @@ export const TitleArea = styled.div`
 `;
 
 export const CenterArea = styled.div`
-  padding-top: 160px;
+  padding-top: 180px;
   display: flex;
   justify-content: center;
 `;
