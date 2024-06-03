@@ -1,50 +1,158 @@
 import {
   Body,
   Btn,
-  Content1,
-  GalleryColumn,
-  GalleryEle1,
-  GalleryEle2,
-  GalleryWrapper,
+  CenterArea,
   NavRow,
   PrimaryColor,
-  TitleHeader1,
+  Section1,
+  Article1,
+  Section1Row,
+  Section1Title,
+  SubTitle,
+  Thumbnail,
+  TitleArea,
+  TitleBg,
+  TitleHeader,
   TopNav,
   WattiLogo,
+  Article1Title,
+  Article1Content,
+  Article1Btn,
+  Section2,
+  Footer,
+  Section2Title,
+  Section2Btn,
+  FooterNav,
+  FooterNavBtns,
+  FooterColumn,
+  NinewattLogo,
+  FooterTable,
+  FooterTableHeader,
+  FooterTableRow,
 } from "./WattiPage.style";
 import Logo from "../assets/watti_logo.png";
+import Exam1 from "../assets/watti_exam1.png";
+import Logo2 from "../assets/ninewatt_logo.png";
 
 const WattiPage = () => {
   return (
     <Body>
-      {/* <div>WE ALWAYS LIVE THE CITY</div> */}
-      <TopNav>
-        <WattiLogo src={Logo} alt="" />
-        <NavRow>
-          <div>제품 소개</div>
-          <div>문의하기</div>
-          <Btn>체험판 시작하기</Btn>
-        </NavRow>
-      </TopNav>
+      <TitleBg />
+      <TitleArea>
+        <TopNav>
+          <WattiLogo src={Logo} alt="" />
+          <NavRow>
+            <div>
+              <PrimaryColor>Home</PrimaryColor>
+            </div>
+            <div>Case studies</div>
+            <div>Language</div>
+          </NavRow>
+        </TopNav>
 
-      <TitleHeader1>
-        3D Map-Based Urban Building <br /> Energy Analysis Platform, <PrimaryColor>WATTI</PrimaryColor>
-      </TitleHeader1>
+        <CenterArea>
+          <TitleHeader>
+            <SubTitle>WE ALWAYS LIVE THE CITY</SubTitle>
+            <div>
+              3D Map-Based Urban Building <br /> Energy Analysis Platform
+            </div>
+            <div style={{ height: "100px" }} />
+            <Btn>
+              <div>Check the case studies</div>
+              <div>→</div>
+            </Btn>
+          </TitleHeader>
+        </CenterArea>
+      </TitleArea>
 
-      {/* <GalleryWrapper>
-        <GalleryEle1></GalleryEle1>
-        <GalleryColumn>
-          <GalleryEle2></GalleryEle2>
-          <GalleryEle2></GalleryEle2>
-        </GalleryColumn>
-      </GalleryWrapper> */}
-
-      {/* <div style={{height: "20px"}} />
-      <Content1>
-        와티는 20??년부터 시작된 프로젝트로, 대충 이곳 저곳 고객사들이 사용하는 검증된 서비스입니다. <br />
-        어떤 어떤 기능과 같이, 다른 서비스에서 볼수 없는 와티만의 서비스를 제공합니다. <br />
-        와티를 통해 에너지 절약으로 우주 평화에 기여하는 솔루션입니다.
-      </Content1> */}
+      <Section1>
+        <Section1Title>Watti's case studies</Section1Title>
+        <Section1Row>
+          <Thumbnail src={Exam1} alt="" />
+          <Article1>
+            <Article1Title>watti in Gangnam-gu</Article1Title>
+            <Article1Content>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            </Article1Content>
+            <Article1Btn>
+              <div>Check this case</div>
+              <div>→</div>
+            </Article1Btn>
+          </Article1>
+        </Section1Row>
+        <Section1Row>
+          <Article1>
+            <Article1Title>watti in France</Article1Title>
+            <Article1Content>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            </Article1Content>
+            <Article1Btn>
+              <div>Check this case</div>
+              <div>→</div>
+            </Article1Btn>
+          </Article1>
+          <Thumbnail src={Exam1} alt="" />
+        </Section1Row>
+        <Section1Row>
+          <Thumbnail src={Exam1} alt="" />
+          <Article1>
+            <Article1Title>watti in Gangnam-gu</Article1Title>
+            <Article1Content>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            </Article1Content>
+            <Article1Btn>
+              <div>Check this case</div>
+              <div>→</div>
+            </Article1Btn>
+          </Article1>
+        </Section1Row>
+      </Section1>
+      <Section2>
+        <Section2Title>Contact Us</Section2Title>
+        <Section2Btn>
+          <div>contact us</div>
+          <div>@</div>
+        </Section2Btn>
+      </Section2>
+      <Footer>
+        <FooterColumn>
+          <NinewattLogo src={Logo2} alt="" />
+          <div>
+            204 Convensia-daero, Yeonsu-gu, Incheon | 21, Baekbeom-ro 31-gil, Mapo-gu, Seoul, Republic of Korea Korean <br />
+            EID : 107-88-42750 | NINEWATT Co., Ltd | CEO : YeongRok Kim <br />
+            ninewatt@ninewatt.com | 070-1234-2345
+          </div>
+        </FooterColumn>
+        <FooterColumn>
+          <FooterTable>
+            <FooterTableHeader>
+              <div>HOME</div>
+              <div>CASE STUDIES</div>
+              <div>CONTACT</div>
+            </FooterTableHeader>
+            <FooterTableRow>
+              <div>gangnam-gu</div>
+            </FooterTableRow>
+            <FooterTableRow>
+              <div>paris</div>
+            </FooterTableRow>
+            <FooterTableRow>
+              <div>cocacola</div>
+            </FooterTableRow>
+          </FooterTable>
+        </FooterColumn>
+      </Footer>
+      <FooterNav>
+        <FooterNavBtns>
+          <div>개인정보취급방침</div>
+          <div>이용약관</div>
+          <div>이메일무단수집거부</div>
+        </FooterNavBtns>
+        <FooterNavBtns>Copyright ⓒ NINEWATT All rights reserved.</FooterNavBtns>
+      </FooterNav>
     </Body>
   );
 };
