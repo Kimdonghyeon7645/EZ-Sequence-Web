@@ -38,33 +38,35 @@ import Logo2 from "../assets/ninewatt_logo.png";
 const WattiPage = () => {
   return (
     <Body>
-      <TitleBg />
-      <TitleArea>
-        <TopNav>
-          <WattiLogo src={Logo} alt="" />
-          <NavRow>
-            <div>
-              <PrimaryColor>Home</PrimaryColor>
-            </div>
-            <div>Case studies</div>
-            <div>Language</div>
-          </NavRow>
-        </TopNav>
+      <div style={{backgroundColor: "#e3e3e3"}}>
+        <TitleBg />
+        <TitleArea>
+          <TopNav>
+            <WattiLogo src={Logo} alt="" />
+            <NavRow>
+              <div>
+                <PrimaryColor>Home</PrimaryColor>
+              </div>
+              <div>Case studies</div>
+              <div>Language</div>
+            </NavRow>
+          </TopNav>
 
-        <CenterArea>
-          <TitleHeader>
-            <SubTitle>WE ALWAYS LIVE THE CITY</SubTitle>
-            <div>
-              3D Map-Based Urban Building <br /> Energy Analysis Platform
-            </div>
-            <div style={{ height: "100px" }} />
-            <Btn>
+          <CenterArea>
+            <TitleHeader>
+              <SubTitle>WE ALWAYS LIVE THE CITY</SubTitle>
+              <div>
+                3D Map-Based Urban Building <br /> Energy Analysis Platform
+              </div>
+              <div style={{ height: "40px" }} />
+              <Btn>
               <div>Check the case studies</div>
-              <div style={{marginTop: "3px"}}>→</div>
+              <div style={{ marginTop: "3px" }}>→</div>
             </Btn>
-          </TitleHeader>
-        </CenterArea>
-      </TitleArea>
+            </TitleHeader>
+          </CenterArea>
+        </TitleArea>
+      </div>
 
       <Section1>
         <Section1Title>Watti's case studies</Section1Title>
@@ -115,7 +117,7 @@ const WattiPage = () => {
         <Section2Title>Contact Us</Section2Title>
         <Section2Btn>
           <div>contact us</div>
-          <div style={{marginTop: "4px"}}>
+          <div style={{ marginTop: "4px" }}>
             <svg width="21" height="16" viewBox="0 0 21 16" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M2 1.5L9.08579 8.58579C9.86683 9.36683 11.1332 9.36684 11.9142 8.58579L19 1.5M2.5 15H18.5C19.0523 15 19.5 14.5523 19.5 14V2C19.5 1.44772 19.0523 1 18.5 1H2.5C1.94772 1 1.5 1.44772 1.5 2V14C1.5 14.5523 1.94772 15 2.5 15Z"
