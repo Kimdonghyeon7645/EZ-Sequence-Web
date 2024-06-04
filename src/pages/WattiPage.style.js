@@ -37,16 +37,16 @@ export const Btn = styled.div`
   justify-content: center;
   align-items: center;
   gap: 25px;
-  height: 72px;
-  width: 370px;
+  height: 70px;
+  width: 380px;
 
   border-radius: 8px;
   border: none;
   background-color: #00a0ad;
   color: white;
-  font-size: 24px;
-  font-weight: 600;
-  letter-spacing: 0px;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
 
   user-select: none;
   cursor: pointer;
@@ -56,21 +56,22 @@ export const TitleHeader = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   color: #333;
+  text-align: center;
   font-weight: 700;
-  font-size: 70px;
-  line-height: 78px;
-  letter-spacing: -0.2px;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 0px;
 `;
 
 export const SubTitle = styled.div`
   color: #4ab1bd;
-  font-weight: 500;
-  font-size: 25px;
+  font-weight: 400;
+  font-size: 34px;
   letter-spacing: 0px;
-  margin-left: 6px;
-  margin-bottom: -6px;
+  margin-bottom: -5px;
 `;
 
 export const PrimaryColor = styled.span`
@@ -82,8 +83,7 @@ export const TitleBg = styled.div`
   position: absolute;
   overflow: hidden;
   width: 100%;
-  height: 750px;
-  margin-top: 150px;
+  height: 950px;
   background-color: #E4E4E4;
   background-image: url(${backgroundImage});
   background-size: cover;
@@ -92,17 +92,16 @@ export const TitleBg = styled.div`
 `;
 
 export const TitleArea = styled.div`
-  height: 850px;
+  height: 905px;
   position: relative;
   padding: 20px;
   z-index: 2;
 `;
 
 export const CenterArea = styled.div`
-  padding-top: 130px;
+  padding-top: 160px;
   display: flex;
-  align-items: end;
-  padding-left: 10%;
+  justify-content: center;
 `;
 
 export const Section1 = styled.div`
@@ -118,7 +117,7 @@ export const Section1 = styled.div`
 `;
 
 export const Section1Title = styled.div`
-  margin: 140px 0 -20px 0;
+  margin: 160px 0 0 0;
   font-size: 50px;
   color: #444;
   font-weight: 600;
