@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EZ-Sequence-Web/static/css/main.0d1fce4f.css",
-    "main.js": "/EZ-Sequence-Web/static/js/main.e27b626c.js",
+    "main.js": "/EZ-Sequence-Web/static/js/main.57d551a6.js",
     "static/js/453.00b839f0.chunk.js": "/EZ-Sequence-Web/static/js/453.00b839f0.chunk.js",
     "static/media/watti_exam2.png": "/EZ-Sequence-Web/static/media/watti_exam2.1d44e83341e5b81c997f.png",
     "static/media/watti_exam1.png": "/EZ-Sequence-Web/static/media/watti_exam1.30563079cb04183e2555.png",
@@ -11,11 +11,11 @@
     "static/media/sample3.png": "/EZ-Sequence-Web/static/media/sample3.9c552c9f1de62f0f16a2.png",
     "index.html": "/EZ-Sequence-Web/index.html",
     "main.0d1fce4f.css.map": "/EZ-Sequence-Web/static/css/main.0d1fce4f.css.map",
-    "main.e27b626c.js.map": "/EZ-Sequence-Web/static/js/main.e27b626c.js.map",
+    "main.57d551a6.js.map": "/EZ-Sequence-Web/static/js/main.57d551a6.js.map",
     "453.00b839f0.chunk.js.map": "/EZ-Sequence-Web/static/js/453.00b839f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d1fce4f.css",
-    "static/js/main.e27b626c.js"
+    "static/js/main.57d551a6.js"
   ]
 }
