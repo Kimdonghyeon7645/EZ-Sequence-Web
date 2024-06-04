@@ -7,14 +7,14 @@ export const Body = styled.div`
 `;
 
 export const TopNav = styled.div`
-  padding: 6px 10%;
+  padding: 4px 11%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 `;
 
 export const WattiLogo = styled.img`
-  height: 48px;
+  height: 46px;
   user-select: none;
 `;
 
@@ -23,7 +23,7 @@ export const NavRow = styled.div`
   flex-direction: row;
   align-items: center;
   gap: 45px;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
   padding-bottom: 10px;
   letter-spacing: 0px;
@@ -36,15 +36,15 @@ export const Btn = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
-  height: 70px;
-  width: 380px;
+  gap: 15px;
+  height: 58px;
+  width: 250px;
 
-  border-radius: 8px;
+  /* border-radius: 8px; */
   border: none;
   background-color: #00a0ad;
   color: white;
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.2px;
 
@@ -61,17 +61,17 @@ export const TitleHeader = styled.div`
   color: #333;
   text-align: center;
   font-weight: 700;
-  font-size: 80px;
-  line-height: 90px;
-  letter-spacing: 0px;
+  font-size: 51px;
+  line-height: 70px;
+  letter-spacing: 2.5px;
 `;
 
 export const SubTitle = styled.div`
   color: #4ab1bd;
-  font-weight: 400;
-  font-size: 34px;
-  letter-spacing: 0px;
+  font-weight: 300;
+  font-size: 26px;
   margin-bottom: -5px;
+  letter-spacing: 0px;
 `;
 
 export const PrimaryColor = styled.span`
@@ -99,7 +99,7 @@ export const TitleArea = styled.div`
 `;
 
 export const CenterArea = styled.div`
-  padding-top: 120px;
+  padding-top: 200px;
   display: flex;
   justify-content: center;
 `;
@@ -118,23 +118,23 @@ export const Section1 = styled.div`
 
 export const Section1Title = styled.div`
   margin: 160px 0 -10px 0;
-  font-size: 50px;
+  font-size: 34px;
   color: #444;
-  font-weight: 600;
-  letter-spacing: -0.6px;
+  font-weight: 700;
+  /* letter-spacing: -0.2px; */
 `;
 
 export const Section1Row = styled.div`
-  margin-top: 150px;
-  width: 90%;
+  margin-top: 140px;
+  width: 80%;
   display: flex;
   justify-content: space-evenly;
   /* gap: 40px; */
 `;
 
 export const Thumbnail = styled.img`
-  height: 370px;
-  width: 620px;
+  height: 310px;
+  width: 540px;
   background-color: black;
 
   border-radius: 12px;
@@ -142,7 +142,7 @@ export const Thumbnail = styled.img`
 `;
 
 export const Article1 = styled.div`
-  width: 35%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -150,16 +150,17 @@ export const Article1 = styled.div`
 `;
 
 export const Article1Title = styled.div`
-  font-size: 33px;
+  font-size: 25px;
   font-weight: 600;
-  letter-spacing: 0px;
+  letter-spacing: 0.5px;
   color: #444;
 `;
 
 export const Article1Content = styled.div`
-  font-size: 26px;
+  font-size: 17.5px;
   font-weight: 200;
-  color: #777;
+  color: #444;
+  letter-spacing: 0.2px;
 `;
 
 export const Article1Btn = styled.div`
@@ -170,17 +171,17 @@ export const Article1Btn = styled.div`
   justify-content: space-evenly;
   align-items: center;
 
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #888;
-  border: 1px solid #aaa;
+  border: 1px solid #ccc;
 
   cursor: pointer;
 `;
 
 export const Section2 = styled.div`
   position: relative;
-  height: 450px;
+  height: 410px;
   background-image: url(${backgroundImage});
   background-size: cover;
   background-position: center;
@@ -205,23 +206,23 @@ export const Section2 = styled.div`
 
 export const Section2Title = styled.div`
   color: white;
-  font-size: 44px;
+  font-size: 36px;
   font-weight: 700;
-  letter-spacing: -0.5px;
+  letter-spacing: 0px;
   z-index: 2;
 `;
 
 export const Section2Btn = styled.div`
   margin-top: 20px;
-  height: 60px;
-  width: 250px;
+  height: 58px;
+  width: 220px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 15px;
   z-index: 2;
 
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   color: white;
   border: 1px solid white;
@@ -230,30 +231,30 @@ export const Section2Btn = styled.div`
 `;
 
 export const Footer = styled.div`
-  height: 380px;
-  padding: 0 10%;
+  height: 320px;
+  padding: 0 12%;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  font-size: 16.5px;
+  font-size: 14px;
   font-weight: 400;
   letter-spacing: -1px;
-  color: #aaa;
+  color: #777;
 
-  line-height: 28px;
+  line-height: 24px;
 `;
 
 export const FooterColumn = styled.div``;
 
 export const NinewattLogo = styled.img`
-  height: 75px;
+  height: 70px;
   margin-bottom: 40px;
 `;
 
 export const FooterTable = styled.div`
-  font-size: 17.5px;
+  font-size: 13px;
   height: 210px;
 `;
 
@@ -264,11 +265,11 @@ export const FooterTableHeader = styled.div`
 `;
 
 export const FooterTableRow = styled.div`
-  padding-top: 12px;
+  padding-top: 6px;
   display: flex;
-  padding-left: 95px;
+  padding-left: 75px;
   text-align: center;
-  color: #ccc;
+  color: #aaa;
 `;
 
 export const FooterNav = styled.div`
@@ -299,17 +300,18 @@ export const HeaderBtmNav = styled.div`
 
 export const HeaderBtmNavArea = styled.div`
   position: absolute;
-  margin-top: -180px;
-  height: 300px;
-  width: 80%;
-  left: 10%;
+  margin-top: -195px;
+  height: 280px;
+  width: 70%;
+  left: 12.3%;
   border-radius: 40px;
   box-shadow: 0 25px 50px -20px rgb(0 0 0 / 0.1);
   background-color: white;
   z-index: 2;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  padding: 0 3%;
 `;
 
 export const HeaderBtmNavTitle = styled.div`
@@ -320,8 +322,9 @@ export const HeaderBtmNavTitle = styled.div`
   align-items: center;
 
   color: #666;
-  font-size: 35px;
-  font-weight: 600;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
   letter-spacing: 1px;
   text-align: center;
 `;
@@ -335,23 +338,26 @@ export const HeaderBtmLogo = styled.img`
 `;
 
 export const HeaderBtmNavColumn = styled.div`
-  width: 24%;
+  width: 18%;
   padding: 0 40px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding-top: 6%;
+  justify-content: start;
   align-items: center;
-  gap: 35px;
+  gap: 50px;
 
   color: #777;
   text-align: center;
-  font-size: 16px;
-  letter-spacing: 0px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  font-weight: 500;
 `;
 
 export const HeaderBtmNavColumnDivider = styled.div`
   margin: auto;
   width: 0.5px;
-  height: 120px;
+  height: 130px;
   background-color: #ccc;
 `;

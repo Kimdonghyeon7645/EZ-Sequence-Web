@@ -45,7 +45,7 @@ import Logo3 from "../assets/watti_grey_logo.png";
 
 const CheckSvg = () => {
   return (
-    <svg width="45" height="34" viewBox="0 0 45 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="40" height="30" viewBox="0 0 45 34" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M6.60156 20.0762H12.8613V26.7115H6.60156V20.0762Z" fill="#00A0AD" />
       <path d="M0.353516 13.3633H6.61323V19.9986H0.353516V13.3633Z" fill="#00A0AD" />
       <path d="M12.8916 26.7129H19.1513V33.3482H12.8916V26.7129Z" fill="#00A0AD" />
@@ -79,7 +79,7 @@ const WattiPage = () => {
             <div>
               3D Map-Based Urban Building <br /> Energy Analysis Platform
             </div>
-            <div style={{ height: "100px" }} />
+            <div style={{ height: "105px" }} />
             <Btn>
               <div>Check the case studies</div>
               <div style={{ marginTop: "3px" }}>→</div>
