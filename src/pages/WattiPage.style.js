@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import backgroundImage from "../assets/background.jpeg";
-import ContactBg from "../assets/contact_us_bg.png";
+// import ContactBg from "../assets/contact_us_bg.png";
 
 export const Body = styled.div`
   width: 100%;
@@ -84,7 +84,7 @@ export const TitleBg = styled.div`
   overflow: hidden;
   width: 100%;
   height: 950px;
-  background-color: #E4E4E4;
+  background-color: #e4e4e4;
   background-image: url(${backgroundImage});
   background-size: cover;
   filter: blur(3px);
@@ -99,7 +99,7 @@ export const TitleArea = styled.div`
 `;
 
 export const CenterArea = styled.div`
-  padding-top: 160px;
+  padding-top: 120px;
   display: flex;
   justify-content: center;
 `;
@@ -117,7 +117,7 @@ export const Section1 = styled.div`
 `;
 
 export const Section1Title = styled.div`
-  margin: 160px 0 0 0;
+  margin: 160px 0 -10px 0;
   font-size: 50px;
   color: #444;
   font-weight: 600;
@@ -142,7 +142,7 @@ export const Thumbnail = styled.img`
 `;
 
 export const Article1 = styled.div`
-  width: 33%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -150,16 +150,16 @@ export const Article1 = styled.div`
 `;
 
 export const Article1Title = styled.div`
-  font-size: 32px;
+  font-size: 33px;
   font-weight: 600;
-  letter-spacing: -0.2px;
+  letter-spacing: 0px;
   color: #444;
 `;
 
 export const Article1Content = styled.div`
   font-size: 26px;
   font-weight: 200;
-  color: #444;
+  color: #777;
 `;
 
 export const Article1Btn = styled.div`
@@ -181,31 +181,45 @@ export const Article1Btn = styled.div`
 export const Section2 = styled.div`
   position: relative;
   height: 450px;
-  background-image: url(${ContactBg});
+  background-image: url(${backgroundImage});
   background-size: cover;
+  background-position: center;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
-  padding-left: 18%;
+  align-items: center;
+  gap: 30px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25); // 어두운 배경색
+    z-index: 1; // PIXI 애플리케이션 위에 배치
+  }
 `;
 
 export const Section2Title = styled.div`
   color: white;
-  font-size: 54px;
-  font-weight: 600;
+  font-size: 44px;
+  font-weight: 700;
   letter-spacing: -0.5px;
+  z-index: 2;
 `;
 
 export const Section2Btn = styled.div`
   margin-top: 20px;
-  height: 58px;
-  width: 220px;
+  height: 60px;
+  width: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 15px;
+  z-index: 2;
 
   font-size: 20px;
   font-weight: 500;
@@ -275,4 +289,69 @@ export const FooterNavBtns = styled.div`
   align-items: center;
   gap: 32px;
   padding-bottom: 4px;
+`;
+
+export const HeaderBtmNav = styled.div`
+  position: relative;
+  height: 450px;
+  background-color: white;
+`;
+
+export const HeaderBtmNavArea = styled.div`
+  position: absolute;
+  margin-top: -180px;
+  height: 300px;
+  width: 80%;
+  left: 10%;
+  border-radius: 40px;
+  box-shadow: 0 25px 50px -20px rgb(0 0 0 / 0.1);
+  background-color: white;
+  z-index: 2;
+
+  display: flex;
+  justify-content: space-evenly;
+`;
+
+export const HeaderBtmNavTitle = styled.div`
+  height: 100%;
+  padding-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #666;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: center;
+`;
+
+export const HeaderBtmLogo = styled.img`
+  margin-bottom: -4px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 160px;
+`;
+
+export const HeaderBtmNavColumn = styled.div`
+  width: 24%;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+
+  color: #777;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0px;
+`;
+
+export const HeaderBtmNavColumnDivider = styled.div`
+  margin: auto;
+  width: 0.5px;
+  height: 120px;
+  background-color: #ccc;
 `;
